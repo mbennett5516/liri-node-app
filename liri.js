@@ -1,4 +1,4 @@
-//////////IMPORTING DEPENDENCIES//////////
+//////////IMPORTING DEPENDENCIES and SETTING GLOBAL VARIABLES//////////
 const request = require('request');
 
 const Spotify = require('node-spotify-api');
@@ -12,7 +12,7 @@ const spotify = new Spotify(keys.spotify);
 const action = process.argv[2];
 
 let query = process.argv[3];
-//////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
 
 //*********************************************************FUNCTIONS***************************************************************//
 
@@ -47,6 +47,7 @@ const concertThis = function () {
 }
 /////////////////////////////////////////
 
+
 //////////SPOTIFY-SONG FUNCTION//////////
 const spotifySong = function () {
     spotify.search({
@@ -54,33 +55,49 @@ const spotifySong = function () {
         query: query,
         limit: 10
     }, function (err, data) {
+        const song = data.tracks.items;
         if (err) {
             return console.log('Error occurred: ' + err);
         }
-        for (let i = 0; i < data.tracks.items.length; i++) {
+        for (let i = 0; i < song.length; i++) {
             let result = '';
-            result += `${data.tracks.items[i].name}, from the album: ${data.tracks.items[i].album.name}, by `;
-            for (let j = 0; j < data.tracks.items[i].artists.length; j++) {
-                if (j === data.tracks.items[i].artists.length - 1 && j !== 0) {
-                    result += `and ${data.tracks.items[i].artists[j].name}`
+            result += `${song[i].name}, from the album: ${song[i].album.name}, by `;
+            for (let j = 0; j < song[i].artists.length; j++) {
+                if (j === song[i].artists.length - 1 && j !== 0) {
+                    result += `and ${song[i].artists[j].name}`
                 }
-                else if (data.tracks.items[i].artists.length === 1) {
-                    result += `${data.tracks.items[i].artists[j].name}`;
+                else if (song[i].artists.length === 1) {
+                    result += `${song[i].artists[j].name}`;
                 }
                 else {
-                    result += `${data.tracks.items[i].artists[j].name}, `;
+                    result += `${song[i].artists[j].name}, `;
                 }
             }
-            if (data.tracks.items[i].preview_url === null) {
+            if (song[i].preview_url === null) {
                 result += `. No Sample Available \n`;
             }
             else {
-                result += `. Sample: ${data.tracks.items[i].preview_url} \n`;
+                result += `. Sample: ${song[i].preview_url} \n`;
             }
             console.log(result);
         }
     })
 }
+/////////////////////////////////////////
+
+
+//////////MOVIE-THIS FUNCTION//////////
+const movieThis = function () {
+
+}
+///////////////////////////////////////
+
+
+///////////DO-WHAT-IT-SAYS FUNCTION///////////
+const doWhat = function () {
+
+}
+//////////////////////////////////////////////
 //////////HANDLE ACTION INPUT//////////
 switch (action) {
     case ('concert-this'):
@@ -90,10 +107,12 @@ switch (action) {
         spotifySong();
         break;
     case ('movie-this'):
+        movieThis();
         break;
     case ('do-what-it-says'):
+        doWhat();
         break;
     default:
-        break;
+        console.log(`Please use one of the acceptable commands: \n     concert-this\n     spotify-song\n     movie-this\n     do-what-it-says`);
 }
 ///////////////////////////////////////
