@@ -25,6 +25,11 @@ let query = process.argv[3];
 
 //////////CONCERT-THIS FUNCTION//////////
 const concertThis = function () {
+    fs.unlink('./log.txt', function(err){
+        if (err){
+            console.log("File not deleted. Error: " + err);
+        }
+    })
 
     let artist = query;
     request(`https://rest.bandsintown.com/artists/${artist}/events?app_id=${bitKey}`, function (err, res, body) {
@@ -57,6 +62,11 @@ const concertThis = function () {
 
 //////////SPOTIFY-SONG FUNCTION//////////
 const spotifySong = function () {
+    fs.unlink('./log.txt', function(err){
+        if (err){
+            console.log("File not deleted. Error: " + err);
+        }
+    })
 
     if (query === undefined) {
         query = "What's my age again"
@@ -91,6 +101,7 @@ const spotifySong = function () {
                 result += `. Sample: ${song[i].preview_url} \n`;
             }
             console.log(result);
+            appendFile(result);
         }
     })
 }
@@ -99,6 +110,11 @@ const spotifySong = function () {
 
 //////////MOVIE-THIS FUNCTION//////////
 const movieThis = function () {
+    fs.unlink('./log.txt', function(err){
+        if (err){
+            console.log("File not deleted. Error: " + err);
+        }
+    })
 
     if (query === undefined) {
         query = "Mr. Nobody";
@@ -120,14 +136,39 @@ const movieThis = function () {
 
 ///////////DO-WHAT-IT-SAYS FUNCTION///////////
 const doWhat = function () {
+    fs.unlink('./log.txt', function(err){
+        if (err){
+            console.log("File not deleted. Error: " + err);
+        }
+    })
+    
     fs.readFile('./random.txt', 'utf-8', function (err, data) {
-        const dataList = data.split(',');
-        action = dataList[0];
-        query = dataList[1];
-        Liri();
+        if (err) {
+            return console.log('Error: ' + err);
+        }
+        else {
+            const dataList = data.split(',');
+            action = dataList[0];
+            query = dataList[1];
+            Liri();
+        }
     })
 }
 //////////////////////////////////////////////
+
+
+//////////WRITE-FILE FUNCTION//////////
+const appendFile = function (result) {
+    fs.appendFile('log.txt', result, function (err) {
+        if(err){
+            return console.log('Error: ' + err);
+        }
+        else{
+            console.log('Results Written to log.txt');
+        }
+    })
+}
+///////////////////////////////////////
 //////////HANDLE ACTION INPUT//////////
 const Liri = function () {
     switch (action) {
