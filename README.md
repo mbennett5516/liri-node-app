@@ -43,3 +43,7 @@ After changing the text in *random.txt* to a query matching this formatting, run
 ## RESULTS
 
 If you typed your query in correctly, your results will show in your terminal just under where you typed in your query, but any queries and responses will also be saved permanently in the *log.txt* file included in this program.
+
+## VIDEO
+
+You can find a video of the app in action [here](https://drive.google.com/file/d/1cggh1TmxrH4O1CBBtoN4d6m1Hq9Qiw72/view)
