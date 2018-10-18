@@ -12,6 +12,10 @@ const fs = require('fs');
 const keys = require('./keys.js');
 
 /*************API KEYS*****************/
+//The keys are hidden in the .env file locally on my pc
+//for this app to work for anyone else, you'll have to obtain
+//your own keys to Spotify's node API, OMDB's API and Band's In Town's API
+//make a .env file with the keys saved as you see them in the keys.js file
 
 const spotify = new Spotify(keys.spotify);
 
