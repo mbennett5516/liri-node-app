@@ -1,0 +1,325 @@
+node liri concert-this "Metallica" 
+
+Metallica is playing at PPG Paints Arena in Pittsburgh, PA
+
+Metallica is playing at Bryce Jordan Center in University Park, PA
+
+Metallica is playing at Spectrum Center in Charlotte, NC
+
+Metallica is playing at Wells Fargo Center in Philadelphia, PA
+
+Metallica is playing at KeyBank Center in Buffalo, NY
+
+Metallica is playing at Times Union Center in Albany, NY
+
+Metallica is playing at T-Mobile Arena in Las Vegas, NV
+
+Metallica is playing at Taco Bell Arena in Boise, ID
+
+Metallica is playing at Vivint Smart Home Arena in Salt Lake City, UT
+
+Metallica is playing at Spokane Arena in Spokane, WA
+
+Metallica is playing at Moda Center in Portland, OR
+
+Metallica is playing at Golden 1 Center in Sacramento, CA
+
+Metallica is playing at Save Mart Center in Fresno, CA
+
+Metallica is playing at BOK Center in Tulsa, OK
+
+Metallica is playing at Verizon Arena in North Little Rock, AR
+
+Metallica is playing at Legacy Arena at The BJCC in Birmingham, AL
+
+Metallica is playing at Bridgestone Arena in Nashville, TN
+
+Metallica is playing at PNC Arena in Raleigh, NC
+
+Metallica is playing at U.S. Bank Arena in Cincinnati, OH
+
+Metallica is playing at Quicken Loans Arena in Cleveland, OH
+
+Metallica is playing at Don Haskins Center in El Paso, TX
+
+Metallica is playing at United Supermarkets Arena in Lubbock, TX
+
+Metallica is playing at Intrust Bank Arena in Wichita, KS
+
+Metallica is playing at Sprint Center in Kansas City, MO
+
+Metallica is playing at KFC Yum! Center in Louisville, KY
+
+Metallica is playing at Bankers Life Fieldhouse in Indianapolis, IN
+
+Metallica is playing at Van Andel Arena in Grand Rapids, MI
+
+Metallica is playing at Restelo Stadium in Lisbon, Portugal
+
+Metallica is playing at Valdebebas - IFEMA in Madrid, Spain
+
+Metallica is playing at Estadi Olímpic Lluís Companys in Barcelona, Spain
+
+Metallica is playing at Ippodromo Snai - San Siro in Milan, Italy
+
+Metallica is playing at Stadion Letzigrund in Zürich, Switzerland
+
+Metallica is playing at Stade de France in Paris, France
+
+Metallica is playing at SLANE CASTLE in Co. Meath, Ireland
+
+Metallica is playing at Johan Cruijff ArenA in Nieuw-amsterdam, Netherlands
+
+Metallica is playing at RheinEnergieSTADION in Köln, Germany
+
+Metallica is playing at Stade Roi Baudouin in Bruxelles, Belgium
+
+Metallica is playing at Etihad Stadium in Manchester, United Kingdom
+
+Metallica is playing at Twickenham Stadium in London, United Kingdom
+
+Metallica is playing at Olympiastadion in Berlin, Germany
+
+Metallica is playing at Ullevi Restaurant & Conference in Göteborg, Sweden
+
+Metallica is playing at Telia Parken in Copenhagen, Denmark
+
+Metallica is playing at Granasen Arena in Trondheim, Norway
+
+Metallica is playing at KANTOLAN TAPAHTUMAPUISTO in Hameenlinna, Finland
+
+Metallica is playing at Raadi lennuväli, Tartu in Tartu, Estija
+
+Metallica is playing at The Luzhniki Stadium in Moscow, Russia
+
+Metallica is playing at NATIONAL ARENA in Bucuresti, Romania
+
+Metallica is playing at Ernst Happel Stadion in Wien, Austria
+
+Metallica is playing at Letiště Praha Letňany in Praha, Czech Republic
+
+Metallica is playing at PGE Narodowy in Warsaw, Poland
+
+Metallica is playing at Olympiastadion in Munchen, Germany
+
+Metallica is playing at Maimarkt Gelände in Mannheim, Germany
+
+node liri concert-this "Maroon 5" 
+
+Maroon 5 is playing at Mandalay Bay Events Center in Las Vegas, NV
+
+Maroon 5 is playing at Mandalay Bay Events Center in Las Vegas, NV
+
+Maroon 5 is playing at Brisbane Entertainment Centre in Brisbane, Australia
+
+Maroon 5 is playing at Qudos Bank Arena in Sydney, Australia
+
+Maroon 5 is playing at Rod Laver Arena in Melbourne, Australia
+
+Maroon 5 is playing at Tokyo Dome in Tokyo, Tokyo
+
+Maroon 5 is playing at Gocheok Sky Dome in Seoul, South Korea
+
+Maroon 5 is playing at TBA in Kaohsiung City, Taiwan
+
+Maroon 5 is playing at TBA in Macau, Macau
+
+Maroon 5 is playing at SM Mall Of Asia in Manila, Philippines
+
+Maroon 5 is playing at NATIONAL STADIUM in Singapore, Singapore
+
+Maroon 5 is playing at CHALLENGER HALL in Bangkok, Thailand
+
+Maroon 5 is playing at Mollenpark in Aalborg, Denmark
+
+Maroon 5 is playing at Lanxess Arena in Cologne, Germany
+
+Maroon 5 is playing at O2 ARENA in Prague, Czech Republic
+
+Maroon 5 is playing at Tauron Arena in Kraków, Poland
+
+Maroon 5 is playing at Ziggo Dome in Amsterdam, Netherlands
+
+Maroon 5 is playing at AccorHotels Arena in Paris, France
+
+node liri spotify-this-song "Halo" 
+
+Halo, from the album: I AM...SASHA FIERCE, by Beyoncé. Sample: https://p.scdn.co/mp3-preview/3c97985f3736fab6d4abcd2067f346a9b30955fa?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Halo, from the album: Scars (Expanded Edition), by Soil. Sample: https://p.scdn.co/mp3-preview/f0993cee607f769bfff81f038e4a0b6ec2f07b47?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Halo, from the album: I AM...SASHA FIERCE, by Beyoncé. Sample: https://p.scdn.co/mp3-preview/3c97985f3736fab6d4abcd2067f346a9b30955fa?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Halo, from the album: The Bluebird of Happiness, by Lotte Kestner. Sample: https://p.scdn.co/mp3-preview/bdf7b1ad1e130333bc6088e97693d617c977daf4?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Halo, from the album: Welcome to the Neighbourhood, by Boston Manor. Sample: https://p.scdn.co/mp3-preview/3676834478406d6102d80ee7c0e6cff65da81ad5?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Halo, from the album: Melophobia, by Cage The Elephant. Sample: https://p.scdn.co/mp3-preview/1cbf1585793b4760ea7f34ceb30ed07b800840fc?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Halo Theme Mjolnir Mix, from the album: Halo 2, Vol. 1 (Original Soundtrack), by Martin O'Donnell, and Michael Salvatori. Sample: https://p.scdn.co/mp3-preview/db51f1c4ac8dbf81aab6546735840a3dcbe7bb82?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Halo, from the album: Transmissions (Deluxe Version), by Starset. No Sample Available 
+
+Halo, from the album: Rarities, by Ane Brun, and Linnea Olsson. No Sample Available 
+
+Halo, from the album: Halo: Original Soundtrack, by Martin O'Donnell, and Michael Salvatori. Sample: https://p.scdn.co/mp3-preview/90dd1d4f3373964c6c6f7e42decc88d44a082b75?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+node liri spotify-this-song "Hey look Ma I made it" 
+
+Hey Look Ma, I Made It, from the album: Pray For The Wicked, by Panic! At The Disco. Sample: https://p.scdn.co/mp3-preview/724c46d8f0fb7ad7277eb244f1f865d33cd1f246?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Hey Look Ma, I Made It, from the album: Lullaby Versions of Panic! at the Disco, by Twinkle Twinkle Little Rock Star. Sample: https://p.scdn.co/mp3-preview/4562d91dde7836492a5efd6e09e1b321389b31da?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Hey Look Ma, I Made It, from the album: For The Faithless - A Panic! At The Disco Tribute, by Future Of The Purple. Sample: https://p.scdn.co/mp3-preview/6f0f248601efebdc6c3b933b3c94f443e7ebdc81?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Hey Look Ma, I Made It (Originally Performed by Panic! at the Disco) - Karaoke Version, from the album: Karaoke Picks, Vol. 60, by Hit The Button Karaoke. Sample: https://p.scdn.co/mp3-preview/d810b12e9cef6434151c9625ad1afc4030d4c766?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Hey Look Ma, I Made It (Originally Performed by Panic! at the Disco) - Instrumental Version, from the album: Karaoke Picks, Vol. 60, by Hit The Button Karaoke. Sample: https://p.scdn.co/mp3-preview/4385a9ad6f132ea3c42867ddf348317cfc633d8a?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+node liri movie-this "Jaws" 
+
+Jaws
+1975
+IMDB Rating: 8.0
+Rotten Tomatoes Rating: 97%
+USA
+English
+A local sheriff, a marine biologist and an old seafarer team up to hunt down a great white shark wreaking havoc in a beach resort.
+Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary
+
+node liri movie-this "Jaws 2" 
+
+Jaws 2
+1978
+IMDB Rating: 5.7
+Rotten Tomatoes Rating: 57%
+USA
+English
+Police chief Brody must protect the citizens of Amity after a second monstrous shark begins terrorizing the waters.
+Roy Scheider, Lorraine Gary, Murray Hamilton, Joseph Mascolo
+
+node liri spotify-this-song "I Want it That Way" 
+
+I Want It That Way, from the album: The Hits--Chapter One, by Backstreet Boys. Sample: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+I Want It That Way, from the album: Millennium, by Backstreet Boys. Sample: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+I Want It That Way, from the album: Covers Part IV, by Anthem Lights. Sample: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+I Want It That Way, from the album: Beautiful Dreams, by Tyler and Mark. Sample: https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+I Want It That Way, from the album: I Want It That Way, by Manuel Costa. Sample: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+I Want It That Way, from the album: Punk Goes Pop, by Dynamite Boy. No Sample Available 
+
+Ebay (Parody of "I Want It That Way" by the Backstreet Boys), from the album: Poodle Hat, by "Weird Al" Yankovic. Sample: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+I Want It That Way, from the album: 90 Sweet 90s Hits!, by Backstreet Boys. Sample: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+I Want It That Way, from the album: NKOTBSB, by Backstreet Boys. Sample: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+Bye Bye Bye / I Want It That Way (Glee Cast Version), from the album: Bye Bye Bye / I Want It That Way (Glee Cast Version), by Glee Cast. Sample: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=83ff65278c8e417b9be01d78f7cc95a1 
+
+node liri concert-this "Panic at the Disco" 
+
+Panic at the Disco is playing at Mall of Asia Arena in Manila, Philippines
+
+Panic at the Disco is playing at ZEPP Tokyo in Tokyo, Japan
+
+Panic at the Disco is playing at Shinkiba Studio Coast in Tokyo, Japan
+
+Panic at the Disco is playing at ZEPP Osaka Bayside in Osaka, Japan
+
+Panic at the Disco is playing at Corona Capital 2018 in Mexico City, Mexico
+
+Panic at the Disco is playing at KeyBank Center in Buffalo, NY
+
+Panic at the Disco is playing at Place Bell in Laval, Canada
+
+Panic at the Disco is playing at SNHU Arena in Manchester, NH
+
+Panic at the Disco is playing at Times Union Center in Albany, NY
+
+Panic at the Disco is playing at Barclays Center in Brooklyn, NY
+
+Panic at the Disco is playing at Prudential Center in Newark, NJ
+
+Panic at the Disco is playing at Dunkin' Donuts Center in Providence, RI
+
+Panic at the Disco is playing at Capital One Arena in Washington, DC
+
+Panic at the Disco is playing at Spectrum Center in Charlotte, NC
+
+Panic at the Disco is playing at John Paul Jones Arena in Charlottesville, VA
+
+Panic at the Disco is playing at Bridgestone Arena in Nashville, TN
+
+Panic at the Disco is playing at U.S. Bank Arena in Cincinnati, OH
+
+Panic at the Disco is playing at Fiserv Forum in Milwaukee, WI
+
+Panic at the Disco is playing at The Van Andel Arena in Grand Rapids, MI
+
+Panic at the Disco is playing at Quicken Loans Arena in Cleveland, OH
+
+Panic at the Disco is playing at CenturyLink Center in Omaha, NE
+
+Panic at the Disco is playing at Sprint Center in Kansas City, MO
+
+Panic at the Disco is playing at Allstate Arena in Rosemont, IL
+
+Panic at the Disco is playing at Enterprise Center in Saint Louis, MO
+
+Panic at the Disco is playing at FedExForum in Memphis, TN
+
+Panic at the Disco is playing at Frank Erwin Center in Austin, TX
+
+Panic at the Disco is playing at Smoothie King Center in New Orleans, LA
+
+Panic at the Disco is playing at Tingley Coliseum in Albuquerque, NM
+
+Panic at the Disco is playing at Honda Center in Anaheim, CA
+
+Panic at the Disco is playing at The Forum in Inglewood, CA
+
+Panic at the Disco is playing at Valley View Casino Center in San Diego, CA
+
+Panic at the Disco is playing at ORACLE Arena in Oakland, CA
+
+Panic at the Disco is playing at Golden1 Center in Sacramento, CA
+
+Panic at the Disco is playing at Stadthalle in Offenbach, Germany
+
+Panic at the Disco is playing at Columbiahalle  in Berlin, Germany
+
+Panic at the Disco is playing at Mitsubishi Electric Halle in Düsseldorf, Germany
+
+Panic at the Disco is playing at AFAS Live in Amsterdam, Netherlands
+
+Panic at the Disco is playing at Zenith in Paris, France
+
+Panic at the Disco is playing at Lotto Arena in Antwerp, Belgium
+
+Panic at the Disco is playing at SSE Hydro in Glasgow, United Kingdom
+
+Panic at the Disco is playing at Motorpoint Arena in Cardiff, United Kingdom
+
+Panic at the Disco is playing at Arena Birmingham in Birmingham, United Kingdom
+
+Panic at the Disco is playing at The O2 in London, United Kingdom
+
+Panic at the Disco is playing at The O2 in London, United Kingdom
+
+Panic at the Disco is playing at Manchester Arena in Manchester, United Kingdom
+
+node liri movie-this "Jaws 3" 
+
+Jaws 3-D
+1983
+IMDB Rating: 3.6
+Rotten Tomatoes Rating: 11%
+USA
+English
+The sons of police chief Brody must protect customers at a SeaWorld theme park after a thirty-five-foot shark becomes trapped in the park with them.
+Dennis Quaid, Bess Armstrong, Simon MacCorkindale, Louis Gossett Jr.
+

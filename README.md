@@ -35,7 +35,7 @@ Once your keys are installed in your *.env* file, open your terminal and navigat
 * movie-this "name of movie"
 
 One more way to use this app is to locate the *random.txt* file and change its contents to one of the previous commands but in this format:
-* command,"query"
+* command,query
 where **command** is *concert-this*, *spotify-this-song*, or *movie-this*, and **query** is the name of a band, song, or movie respectively. ***Please Note*** that there is no space between the command and the query. This is very important. Please write your query this way.
 
 After changing the text in *random.txt* to a query matching this formatting, run the program with "node liri.js do-what-it-says".
