@@ -90,7 +90,7 @@ const concertThis = function () {
             }
         }
         //If there isn't an error reported, but the status code was NOT 200...
-        else{
+        else {
             //print the status code to the console
             console.log(res.statusCode);
         }
@@ -185,12 +185,12 @@ const movieThis = function () {
     //requests data from the omdb api
     request(`http://www.omdbapi.com/?t=${title}&apikey=${omdbKey}`, function (err, res, body) {
         //If the response is an error...
-        if(err){
+        if (err) {
             //print error details to the console
             console.log("Error: " + err);
         }
         //If there is no error and the status code is 200...
-        else if (!err && res.statusCode === 200){
+        else if (!err && res.statusCode === 200) {
             //make a variable called movie and store the response as a JSON object inside for readability
             const movie = band;
             //make an empty variable called result to store the response as a string
@@ -211,7 +211,7 @@ const movieThis = function () {
             //result deletes after this line as it goes out of scope
         }
         //If no error is caught but status code is NOT 200, print the status code to the console
-        else{
+        else {
             console.log(res.statusCode);
         }
     })
