@@ -49,7 +49,6 @@ const concertThis = function () {
 
     //Takes input from command line and sets it equal to artist for readability
     let artist = query;
-    console.log(artist)
     //Requests data from the bands in town api
     request(`https://rest.bandsintown.com/artists/${artist}/events?app_id=${bitKey}`, function (err, res, body) {
         //If the response is an error, catch and display the error
