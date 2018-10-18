@@ -192,7 +192,7 @@ const movieThis = function () {
         //If there is no error and the status code is 200...
         else if (!err && res.statusCode === 200) {
             //make a variable called movie and store the response as a JSON object inside for readability
-            const movie = band;
+            const movie = JSON.parse(body);
             //make an empty variable called result to store the response as a string
             let result = '';
             //add selected data about the movie to result variable. Separated for readability
